@@ -15,6 +15,7 @@ pip install -r GUI/requirements.txt
 or 
 pip install-r requirements.txt
 
+![alt text](https://github.com/dylaan-codes/AutomatedMoleDetect/tree/main/previewImages/1.png)
 ------ More Info ------
 Detection(s), is the confidence level of the program in its prediction that it is a mole.
 Mask, black and white distinction between mole and else.
