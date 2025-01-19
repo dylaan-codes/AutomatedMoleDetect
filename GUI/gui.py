@@ -32,17 +32,17 @@ im4 = 0
 
 
 # Asset Images
-NoDetectImage = "./GUI/assets/NoMole.png"
+NoDetectImage = "./assets/NoMole.png"
 NoDetectImage = getabsPath(NoDetectImage)
 NoDetectImage = cv2.imread(NoDetectImage)
-UploadIcon = "./GUI/assets/UploadIt.png"
+UploadIcon = "./assets/UploadIt.png"
 UploadIcon = cv2.cvtColor(cv2.resize(cv2.imread(getabsPath(UploadIcon)), (600, 500)), cv2.COLOR_BGR2RGB)
 UploadIcon = ImageTk.PhotoImage(image=Image.fromarray(UploadIcon))  # TK image
 TitleFont = ("MS Serif", 16, "bold")
 
 
 # Defining the Model path for YOLO
-PathFromContentRoot = "GUI/Model5ep32/weights/best.pt"
+PathFromContentRoot = "./Model5ep32/weights/best.pt"
 Absolute_ModelPath = getabsPath(PathFromContentRoot)
 
 def hide_Homepage():
