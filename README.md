@@ -10,7 +10,8 @@ Model3, has the YOLO model weights, images (train, val and test) in case someone
 
 requirements.txt is the python packages required to run the GUI!
 
-FOR VISUAL STUDIO CODE press f5
+FOR VISUAL STUDIO CODE press f5,
+
 Pycharm run normally.
 
 try (in the gui.py terminal)
