@@ -30,7 +30,6 @@ im2 = 0
 im3 = 0
 im4 = 0
 
-
 # Asset Images
 NoDetectImage = "./assets/NoMole.png"
 NoDetectImage = getabsPath(NoDetectImage)
@@ -174,9 +173,9 @@ def DownloadAll():
 
     Output_fname = os.path.basename(OGpath)  # the name of our Selected image
 
-    BboxPath = "GUI/Detections/Bbox"  # Where the Bbox coordinates are saved
-    maskPath = "GUI/Detections/Mask"
-    segPath = "GUI/Detections/Seg"
+    BboxPath = "./Detections/Bbox"  # Where the Bbox coordinates are saved
+    maskPath = "./Detections/Mask"
+    segPath = "./Detections/Seg"
 
     # Downloading Mask
     maskPath = os.path.abspath(maskPath) / Path(Output_fname)  # abs.path is the absolute path to reach "Detections/Mask"
